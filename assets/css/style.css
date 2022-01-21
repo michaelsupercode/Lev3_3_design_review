@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'graphik-medium';
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+@font-face { 
+    font-family: 'graphic-regular'; 
+    src: url(../fonts/Graphik-Regular.woff);
+} 
+@font-face {
+    font-family: 'theinhardt';
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+@font-face {
+    font-family: 'tiempos';
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: unset;
+    list-style: none;
+}
