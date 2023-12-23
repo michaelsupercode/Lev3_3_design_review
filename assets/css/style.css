@@ -21,6 +21,9 @@
     text-decoration: unset;
     list-style: none;
 }
+
+a 
+{color: unset;}
 /**/
 .graphik-m {
     font-family: "Graphik-Medium";
@@ -38,13 +41,29 @@
     font-family: "TiemposHeadline";
   }
 
+  .top {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
   header, ul {
-      display: flex;
+display: flex;
 gap: 2rem;
   }
-  
+
   header {
     justify-content: space-between;
   align-items: center;
   padding-top: 3vh;
   }
+
+.button {
+    border: 1px solid black;
+    padding: 0.3rem 3.2rem;
+    transition: all 0.5s;
+}
+  
+.button:hover {
+    background: #000;
+    color: #fff;
+}
