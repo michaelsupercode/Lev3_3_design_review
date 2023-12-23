@@ -21,3 +21,30 @@
     text-decoration: unset;
     list-style: none;
 }
+/**/
+.graphik-m {
+    font-family: "Graphik-Medium";
+  }
+  
+  .graphik-r {
+    font-family: "Graphik-Regular";
+  }
+  
+  .theinhardt {
+    font-family: "Theinhardt";
+  }
+  
+  .tiempos {
+    font-family: "TiemposHeadline";
+  }
+
+  header, ul {
+      display: flex;
+gap: 2rem;
+  }
+  
+  header {
+    justify-content: space-between;
+  align-items: center;
+  padding-top: 3vh;
+  }
