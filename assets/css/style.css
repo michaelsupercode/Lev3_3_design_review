@@ -68,3 +68,13 @@ gap: 2rem;
     background: #000;
     color: #fff;
 }
+/*  */
+
+main {
+  margin: 8vh;
+  h2 {
+    font-size: 3.5rem;
+    text-align: center;
+
+  }
+}
