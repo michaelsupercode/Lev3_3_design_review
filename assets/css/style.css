@@ -20,10 +20,10 @@
     box-sizing: border-box;
     text-decoration: unset;
     list-style: none;
+    a 
+    {color: unset;}
 }
 
-a 
-{color: unset;}
 /**/
 .graphik-m {
     font-family: "Graphik-Medium";
@@ -42,8 +42,9 @@ a
   }
 
   .top {
-    width: 80vw;
+    width: 90%;
     margin: 0 auto;
+    border: 1px solid red;
   }
 
   header, ul {
