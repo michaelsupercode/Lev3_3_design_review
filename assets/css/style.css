@@ -55,7 +55,10 @@ gap: 2rem;
   header {
     justify-content: space-between;
   align-items: center;
-  padding-top: 3vh;
+  padding-top: 2vh;
+  h2 {
+    font-size: 2.2rem;
+  }
   }
 
 .button {
@@ -73,8 +76,11 @@ gap: 2rem;
 main {
   margin: 8vh;
   h2 {
-    font-size: 3.5rem;
+    font-size: 3.1rem;
     text-align: center;
-
   }
+}
+
+#fst {
+  border: 1px solid red;
 }
