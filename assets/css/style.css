@@ -122,7 +122,7 @@ margin: 6vh 0 10vh 0;
     font-size: 1.5rem;
   }
   /*  */
-  .second {
+  #scnd{
     height: 50rem;
     display: flex;
     justify-content: space-between;
@@ -131,21 +131,21 @@ margin: 6vh 0 10vh 0;
 
   }
   
-  .second-article {
+  #scnd-article {
     width: 49%;
   }
   
-  .second .article-title {
+  #scnd .article-title {
     font-size: 5rem;
     margin-bottom: 5rem;
   }
   
-  .second .article-subtitle {
+  #scnd .article-subtitle {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
   
-  .second .article-text {
+  #scnd .article-text {
     color: #848689;
     font-size: 1.75rem;
     margin-bottom: 4rem 3rem;
