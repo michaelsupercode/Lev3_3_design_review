@@ -75,6 +75,7 @@ gap: 2rem;
 main {
   
 }
+
 #fst {
   margin-top: 10vh;
   width: auto;
@@ -109,4 +110,43 @@ margin: 6vh 0 10vh 0;
     font-size: 3em;
   }
   font-size: 1.5em;
+  }
+
+  .first .article-two p:first-of-type {
+    font-size: 5rem;
+  }
+  
+  .first .article-two p:last-of-type {
+    width: 15rem;
+    color: #848689;
+    font-size: 1.5rem;
+  }
+  /*  */
+  .second {
+    height: 50rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15rem;
+    border: 1px solid red;
+
+  }
+  
+  .second-article {
+    width: 49%;
+  }
+  
+  .second .article-title {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+  }
+  
+  .second .article-subtitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .second .article-text {
+    color: #848689;
+    font-size: 1.75rem;
+    margin-bottom: 4rem 3rem;
   }
