@@ -152,9 +152,14 @@ margin: 6vh 0 10vh 0;
 
   #trd {
     border: 1px solid red;
-    margin-bottom: 5vh;
+    margin: 10vh 0 5vh 0;
   }
 
   #fth {
     border: 1px solid red;
+  }
+
+  footer {
+    border: 8px solid red;
+    margin: 5vh;
   }
