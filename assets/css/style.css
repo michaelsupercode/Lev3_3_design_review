@@ -14,15 +14,25 @@
     font-family: 'tiempos';
     src: url(../fonts/TiemposHeadline-Semibold.woff);
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: unset;
     list-style: none;
+
 a {
       color: unset;
     }
+}
+
+body {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  border: 7px solid rgb(5, 192, 33);
+  width: 90%;
 }
 
 /**/
