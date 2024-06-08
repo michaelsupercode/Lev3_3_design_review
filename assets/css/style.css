@@ -1,75 +1,74 @@
-@font-face {
-    font-family: 'graphik-medium';
-    src: url(../fonts/Graphik-Medium.ttf);
-}
-@font-face { 
-    font-family: 'graphic-regular'; 
-    src: url(../fonts/Graphik-Regular.woff);
-} 
-@font-face {
-    font-family: 'theinhardt';
-    src: url(../fonts/Theinhardt-Lt.woff);
-}
-@font-face {
-    font-family: 'tiempos';
-    src: url(../fonts/TiemposHeadline-Semibold.woff);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: unset;
-    list-style: none;
+
+@font-face {
+  font-family: Graphik-Medium;
+  src: url(../fonts/Graphik-Medium.ttf);
+}
+
+@font-face {
+  font-family: Graphik-Regular;
+  src: url(../fonts/Graphik-Regular.woff);
+}
+
+@font-face {
+  font-family: Theinhardt;
+  src: url(../fonts/Theinhardt-Lt.woff);
+}
+
+@font-face {
+  font-family: TiemposHeadline;
+  src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+
+
+.space {
+  width: 85%;
+  margin: 0 auto;
+}
 
 a {
-      color: unset;
-    }
-
+  text-decoration: none;
+  color: unset;
 }
 
-body {
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  border: 7px solid rgb(5, 192, 33);
-  width: 90%;
-}
-
-/**/
 .graphik-m {
-    font-family: "Graphik-Medium";
-  }
-  
-  .graphik-r {
-    font-family: "Graphik-Regular";
-  }
-  
-  .theinhardt {
-    font-family: "Theinhardt";
-  }
-  
-  .tiempos {
-    font-family: "TiemposHeadline";
-  }
+  font-family: "Graphik-Medium";
+}
 
-  .top {
-    width: 90%;
-    margin: 0 auto;
-    border: 1px solid red;
-  }
+.graphik-r {
+  font-family: "Graphik-Regular";
+}
 
-  header, ul {
-display: flex;
-gap: 2rem;
-  }
+.theinhardt {
+  font-family: "Theinhardt";
+}
 
-  header {
+.tiempos {
+  font-family: "TiemposHeadline";
+}
+
+header,
+ul {
+  display: flex;
+}
+
+header {
   justify-content: space-between;
-  padding-top: 2vh;
-  h2 {
-    font-size: 2.2rem;
-  }
+  align-items: center;
+  padding-top: 1rem;
+}
+
+header ul {
+  gap: 1.5rem;
+}
+
+header ul li {
+  list-style: none;
 }
 
 .button {
@@ -82,95 +81,183 @@ gap: 2rem;
   background: #000;
   color: #fff;
 }
-/*  */
-main {
-  border: 4px solid rgb(40, 32, 32);
+
+main h2 {
+  font-size: 3.25rem;
+  text-align: center;
+  margin: 8rem 0 4rem 0;
 }
 
-#fst {
-  margin-top: 10vh;
-  width: auto;
-  border: 1px solid red;
-  
-  h2 {
-    font-size: 3.3rem;
-    text-align: center;
-  }
-}  
+.title-img {
+  width: 100vw;
+  margin-bottom: 10rem;
+}
 
-.fst-img {
-width: 100vw;
-margin: 6vh 0 10vh 0;
-  }
+/*---------- 1*/
 
-  #fst2 {
-    display: flex;
-    margin:2vh;
-    border: 1px solid red;
-  }
-  
-  .articleL {
-    width: 90vw;
-    font-size: 1.7em;
+.first {
+  display: flex;
+  margin-bottom: 15rem;
+}
 
-  }
-    
-  .articleR {
-  margin-left: 20vw;
-  h3 {
-    font-size: 3em;
-  }
-  font-size: 1.5em;
-  }
+.first .article-one {
+  width: 50rem;
+  flex-grow: 1;
+}
 
-  .first .article-two p:first-of-type {
-    font-size: 5rem;
-  }
-  
-  .first .article-two p:last-of-type {
-    width: 15rem;
-    color: #848689;
-    font-size: 1.5rem;
-  }
-  /*  */
-  #scnd{
-    height: 50rem;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15rem;
-    border: 1px solid red;
-  }
-  
-  #scnd-article {
-    width: 49%;
-  }
-  
-  #scnd .article-title {
-    font-size: 5rem;
-    margin-bottom: 5rem;
-  }
-  
-  #scnd .article-subtitle {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-  
-  #scnd .article-text {
-    color: #848689;
-    font-size: 1.75rem;
-    margin-bottom: 4rem 3rem;
-  }
+.first .article-one p {
+  font-size: 1.75rem;
+  line-height: 1.5em;
+}
 
-  #trd {
-    border: 1px solid red;
-    margin: 10vh 0 5vh 0;
-  }
+.first .article-two {
+  flex-grow: 1;
+  margin-left: 5rem;
+}
 
-  #fth {
-    border: 1px solid red;
-  }
+.first .article-two p:first-of-type {
+  font-size: 5rem;
+}
 
-  footer {
-    border: 8px solid red;
-    margin: 5vh;
-  }
+.first .article-two p:last-of-type {
+  width: 15rem;
+  color: #848689;
+  font-size: 1.5rem;
+}
+
+/*---------- 2*/
+
+.second {
+  height: 50rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15rem;
+}
+
+.second-article {
+  width: 49%;
+}
+
+.second .article-title {
+  font-size: 5rem;
+  margin-bottom: 5rem;
+}
+
+.second .article-subtitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.second .article-text {
+  color: #848689;
+  font-size: 1.75rem;
+  margin-bottom: 4rem 3rem;
+}
+
+/*---------- 3*/
+
+.third {
+  height: 44rem;
+  background: hsl(218, 4%, 94%);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+}
+
+.third-article {
+  width: 50%;
+  align-self: center;
+}
+
+.third .article-title {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.article-list {
+  margin-left: 4rem;
+}
+
+.third .article-text {
+  color: #848689;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+/*---------- 4*/
+
+.fourth {
+  text-align: center;
+  position: relative;
+}
+
+.fourth h2 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+.fourth p {
+  color: #848689;
+}
+
+.fourth p:first-of-type {
+  width: 42%;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin: 0 auto;
+}
+
+.fourth p:last-of-type {
+  width: 25%;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  text-align: start;
+  margin-left: 28rem;
+  margin-bottom: 15rem;
+}
+
+.fourth figure {
+  margin-top: 10rem;
+}
+
+.fourth figure img {
+  width: 100%;
+}
+
+.skater {
+  width: 42%;
+  position: absolute;
+  right: 9.5rem;
+  bottom: -5rem;
+}
+
+
+
+footer {
+  text-align: center;
+  border-top: 1px solid #848689;
+}
+
+footer h2 {
+  font-size: 5rem;
+  margin: 7rem 0 5rem 0;
+}
+
+footer p {
+  color: #848689;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+footer p::before {
+  content: url(../img/costume_guy.png);
+}
+
+footer p a {
+  color: #000;
+}
+
+h6 {
+margin: 5vh;
+text-align: center;
+}
